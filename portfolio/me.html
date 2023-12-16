@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="me.css">
+
+</head>
+
+
+
+
+<body>
+
+
+    <nav>
+
+
+        <div>
+            <h3>Asif</h3>
+        </div>
+
+
+        <div class="nav-links">
+            <ul>
+                <li><a href="#about">about</a></li>
+                <li><a href="#project">project</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </div>
+
+
+    </nav>
+
+
+    <section class="banner container">
+
+        <div>
+
+            <h2 class="intro">Hey,I'm</h2>
+            <h3 class="name">ASIF</h3>
+            <button class="resume">RESUME</button>
+
+        </div>
+
+        <div>
+            <img src="https://www.shutterstock.com/image-photo/smile-face-cart-icon-on-260nw-1911197533.jpg" alt="fency Image">
+        </div>
+
+    </section>
+
+
+    <section id="about" class="about container">
+
+        <div class="about-img">
+            <img src=data:image/jpeg;base64,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 alt="me">
+        </div>
+
+        <div class="about-content">
+            <h3>ABOUT ME</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Repudiandae voluptates,
+                adipisci odit error recusandae rerum nihil
+                dignissimos, ipsa ullam alias impedit
+                deserunt dolores! Temporibus, ratione 
+                sequi quaerat quam optio hic dicta nam 
+                natus rerum quasi quas perferendis aut 
+                sed nihil! Sit, beatae rerum? Porro sapiente,
+                vitae voluptatibus necessitatibus adipisci 
+                quaerat.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Tenetur, quas?
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Veniam sed molestiae assumenda optio tenetur ratione?
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Laudantium soluta nemo et obcaecati modi,
+                animi veritatis quae saepe consequuntur labore.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Sed accusamus temporibus voluptas asperiores obcaecati 
+                praesentium at quos alias, eveniet dolor, 
+                dicta quasi nisi velit repudiandae vel ab dignissimos nobis ad?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Consectetur exercitationem a expedita aliquam porro adipisci, 
+                fugit doloribus nam ipsa laboriosam enim quos unde accusamus. 
+                Vero at alias sapiente officia eveniet?
+            </p>
+        </div>
+
+    </section>
+
+    <section class="technology">
+
+        <div>
+            <h2>Technologies that I have some concept</h2>
+
+        </div>
+
+        <div class="techs">
+            <img src="https://cdn.class101.net/images/4e6882b6-73e1-47f4-941c-f38f606b14eb" alt="">
+            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/27ff1925235523.5634863123edb.jpg" alt="">
+            <img src="https://images.saatchiart.com/saatchi/2158365/art/10132935/9195705-IDZNPRXO-7.jpg" alt="">
+            <img src="https://i.ytimg.com/vi/COB9NBsvArY/hqdefault.jpg" alt="">
+            <img src="https://5.imimg.com/data5/ANDROID/Default/2021/7/SE/RV/OZ/133334562/img-20210709-011232-jpg-500x500.jpg" alt="">
+            <img src="https://e1.pxfuel.com/desktop-wallpaper/722/634/desktop-wallpaper-simple-pencil-art-drawings-easy-pencil-drawings.jpg" alt="">
+        </div>
+
+    </section>
+
+
+    <section id="project" class="project container">
+        <h2>My Projects</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="https://thumbs.dreamstime.com/b/project-management-word-cloud-business-concept-57175390.jpg" alt="">
+                <h3>Project-1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Dolorum, numquam doloremque veritatis aspernatur totam neque nemo 
+                    consequuntur architecto voluptates quisquam!</p>
+                
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-home"></i> </a>
+                    <a href="#"> <i class="fas fa-heart"></i> </a>
+                    <a href="#"> <i class="fas fa-globe"></i> </a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://thumbs.dreamstime.com/b/project-management-word-cloud-business-concept-57175390.jpg" alt="">
+                <h3>Project-1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Dolorum, numquam doloremque veritatis aspernatur totam neque nemo 
+                    consequuntur architecto voluptates quisquam!</p>
+                
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-home"></i> </a>
+                    <a href="#"> <i class="fas fa-heart"></i> </a>
+                    <a href="#"> <i class="fas fa-globe"></i> </a>
+                </div>
+            </div>
+
+            
+            <div class="card">
+                <img src="https://thumbs.dreamstime.com/b/project-management-word-cloud-business-concept-57175390.jpg" alt="">
+                <h3>Project-1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Dolorum, numquam doloremque veritatis aspernatur totam neque nemo 
+                    consequuntur architecto voluptates quisquam!</p>
+                
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-home"></i> </a>
+                    <a href="#"> <i class="fas fa-heart"></i> </a>
+                    <a href="#"> <i class="fas fa-globe"></i> </a>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+</body>
+
+
+
+
+</html>
